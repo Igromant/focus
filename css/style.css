@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+h1{
+    font-family: 'Titillium Web', sans-serif;
+}
+.title{
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+}
+.header{
+    padding: 40px 0px;
+    background-color: ghostwhite;
+}
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation{
+    max-width: 850px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text__serv{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.link{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 120%;
+    color: #000;
+}
+.link:hover{
+    color: midnightblue;
+}
+.hero{
+    background: linear-gradient(to top, #000000ad,#00000064 ), url(../img/fotostudiya.jpg) no-repeat center / cover;
+    padding: 320px 0;
+}
+.block__hero{
+    background: rgba(0, 0, 0, 0.720);
+    max-width: 720px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    width: 100%;
+}
+.hero__title{
+    font-size: 80px;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+.hero__desc{
+    color:aliceblue;
+    font-size: 30px;
+    line-height: 150%;
+    letter-spacing: 0.025em;
+}
+.about{
+    background-color: midnightblue;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.title__about{
+    color: rgb(104, 210, 255);
+}
+.text__about{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    line-height: 150%;
+    padding: 30px;
+    font-size: 22px;
+    background-color:powderblue;
+    position: relative;
+    border-radius: 20px;
+}
+.text__about::before{
+    content: '';
+    position: absolute;
+    background: url(../img/3lp0u6rtoww.jpg) no-repeat center / cover;
+    max-width: 600px;
+    width: 100%;
+    height: 1000px;
+    margin-left: 100%;
+}
+
+.crew{
+    padding-top: 50px;
+    padding-bottom: 80px;
+    background: url(../img/22_181.jpg) no-repeat center / cover;
+    position: relative;
+    z-index: 1;
+}
+.title__crew{
+    text-align: center;
+    margin-bottom: 30px;
+    background-color:snow;
+    border-radius: 50px;
+}
+.text__desc{
+    width: 20%;
+    margin: auto;
+    font-size: 22px;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 60px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.bl__crew{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.card__crew{
+    max-width: 380px;
+    width: 100%;
+    box-shadow: 0px 0px 6px #000;
+    padding: 0px 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+    
+}
+.tit__name{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+    margin-bottom: 6px;
+}
+.role{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.desc__crew{
+    font-size: 20px;
+}
+.right{
+    margin-top: 180px;
+    margin-bottom: 45px;
+    margin-right: 320px;
+    background: aliceblue;
+}
+.right::before{
+    content: '';
+    position: absolute;
+    background: url(../img/24.jpg) no-repeat center;
+    width: 300px;
+    height: 400px;
+    z-index: -1;
+    top: 0;
+    margin-top: -180px;
+    margin-left: 250px;
+    border-left: 15px solid rgb(45, 52, 74);
+    border-right: 80px solid rgb(45, 52, 74);
+    border-bottom: 20px solid rgb(22, 25, 35);
+    border-top: 20px solid rgb(22, 25, 35);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.left{
+    margin-top: 60px;
+    margin-left: 360px;
+    background: antiquewhite
+}
+.left::before{
+    content: '';
+    position: absolute;
+    background: url(../img/11.jpg) no-repeat center;
+    width: 400px;
+    height: 550px;
+    z-index: -1;
+    bottom: 0;
+    margin-left: -360px;
+    transform: rotate(340deg);
+}
+.line{
+    width: 100px;
+    height: 5px;
+    margin: auto;
+    background-color: rosybrown;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 50px; 
+}
+@media (max-width: 1200px) {
+    .container{
+        padding: 0px 10px;
+    }
+}
